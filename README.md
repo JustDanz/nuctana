@@ -53,12 +53,3 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 - Tools powered by [ProjectDiscovery](https://github.com/projectdiscovery)
 - Code made by Justdanz
-
-```
-
-### Instructions for Use
-- Replace `https://github.com/yourusername/nuctana.git` with the actual URL of your GitHub repository.
-- Update the license section if you choose a different license.
-- Feel free to customize any sections to better reflect your project's details or your personal style. 
-
-This README provides a comprehensive overview, making it easy for users to understand the purpose and functionality of your script while guiding them through the installation process.
