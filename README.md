@@ -25,7 +25,7 @@ Katana is a powerful tool for reconnaissance and automated enumeration of target
 
 1. Clone the repository:
    ```bash
-   https://github.com/JustDanz/nuctana.git
+    git clone https://github.com/JustDanz/nuctana.git
    cd nuctana
    ```
 
