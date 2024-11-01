@@ -4,6 +4,20 @@ from rich import box
 import os
 import platform
 import subprocess
+import sys
+
+def check_and_install_python_dependencies():
+    # List of required Python packages
+    required_packages = ['rich']
+
+    # Install missing packages
+    for package in required_packages:
+        try:
+            __import__(package)
+        except ImportError:
+            print(f"{package} is not installed. Installing...")
+            subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
+            print(f"{package} has been installed.")
 
 def check_and_install_go():
     # Check if Go is installed
@@ -83,6 +97,9 @@ def main():
         "[bold green]Code Made by Justdanz[/bold green]",
         justify="center"
     )
+
+    # Check and install Python dependencies
+    check_and_install_python_dependencies()
 
     # Display installation options
     console.print("[bold yellow]Select a tool to install:[/bold yellow]")
