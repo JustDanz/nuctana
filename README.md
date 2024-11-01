@@ -53,3 +53,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 - Tools powered by [ProjectDiscovery](https://github.com/projectdiscovery)
 - Code made by Justdanz
+
+## Documentations
+
+<img src="https://i.ibb.co.com/7G6SPvH/Screenshot-20241101-083537-Termux.png" alt="Screenshot-20241101-083537-Termux" border="0">
